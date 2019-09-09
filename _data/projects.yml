@@ -6,13 +6,13 @@
 #  # url: "#"
 #  description: 
 
-- project: [TmaxOS] Security Framework of Operating System
+- project: TmaxOS) Security Framework of Operating System
   role: Developer
   duration: 2019.05 &mdash; Present
   # url: "#"
   description: 
 
-- project: [TmaxOS] Installer of Operating System
+- project: TmaxOS) Installer of Operating System
   role: Developer
   duration: 2018.05 &mdash; 2019.05
   # url: "#"
@@ -21,7 +21,7 @@
   There are many naming issues in many different hardware interface. For example, a storage can be linked to a computer by using SCSI, SAS, SATA, and these interfaces are named differently in devfs of linux.
   All these things should be considered to install and bootstap your computers!
 
-- project: [TmaxOS] Running Windows Application in linux-based Operating System
+- project: TmaxOS) Running Windows Application in linux-based Operating System
   role: Developer
   duration: 2018.02 &mdash; 2018.05
   # url: "#"
