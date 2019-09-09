@@ -26,43 +26,43 @@
 
 - project: KAIST) Developing Remote Resource Sharing Between Two Mobile Device
   role: 
-  duration: &mdash; 
+  duration: 
   # url: "#"
   description: 
 
 - project: KAIST) File System scheduler for HDD
   role: 
-  duration: &mdash; 
+  duration: 
   # url: "#"
   description: 
 
 - project: KAIST) big.LITTLE sheduling
   role: 
-  duration: &mdash; 
+  duration: 
   # url: "#"
   description: 
 
 - project: Class) Data Mining With Weka
   role: 
-  duration: &mdash; 
+  duration:
   # url: "#"
   description: 
 
 - project: Class) Making Android App for ECG
   role: 
-  duration: &mdash; 
+  duration:
   # url: "#"
   description: 
 
 - project: Class) Systemcall Bottleneck Analysis
   role: 
-  duration: &mdash; 
+  duration:
   # url: "#"
   description: 
 
 - project: Class) Systemcall Bottleneck Analysis
   role: 
-  duration: &mdash; 
+  duration:
   # url: "#"
   description: 
 
