@@ -1,16 +1,28 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
+#- project: 
+#  role: 
+#  duration: &mdash; 
+#  # url: "#"
+#  description: 
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: [TmaxOS] Security Framework of Operating System
+  role: Developer
+  duration: 2019.05 &mdash; Present
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: 
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+- project: [TmaxOS] Installer of Operating System
+  role: Developer
+  duration: 2018.05 &mdash; 2019.05
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: OS can be installed in various environment such as Desktop, Notebook, Server, Virtual environment (VMWare, Virtual box, Hyper-V), Embedded computers, Dummy computers without hard drive. 
+  Also, firmwares are very various in their vendor, type, and ages. For example, different vendors use different management skills for ROM variables, so we should carefully determine how to insert the variables of OS into ROM.
+  There are many naming issues in many different hardware interface. For example, a storage can be linked to a computer by using SCSI, SAS, SATA, and these interfaces are named differently in devfs of linux.
+  All these things should be considered to install and bootstap your computers!
+
+- project: [TmaxOS] Running Windows Application in linux-based Operating System
+  role: Developer
+  duration: 2018.02 &mdash; 2018.05
+  # url: "#"
+  description: 
