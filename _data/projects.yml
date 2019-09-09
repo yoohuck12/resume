@@ -25,37 +25,37 @@
   description: One of TmaxOS's advantage is to run both Windows executable files (EXE) and Linux executable files (ELF). TmaxOS is Linux-based application so it has no power to run EXE file. However, we developed compatitility layer to run EXE files. EXE files thinks they are running in windows platform, so they use many Dynmic Link Libraries (dlls) in windows and other third-party dlls. Therefore, what we did is to develop compatible layer which acts like dlls in windows. 
 
 - project: KAIST) Developing Remote Resource Sharing Between Two Mobile Device
-  role: 
-  duration: 
+  role: Author (Master Thesis)
+  duration: 2015.09
   # url: "#"
-  description: 
+  description: Nowadays there are so many devices around us including smart phone, smart TV, smart watch, and so on. These devices have hardware resources like camera, audio, GPS and logical resources like contacts, calendar, and setting. While most studies focused on sharing hardware resources between devices, little work has been done on sharing both hardware resources and logical resources at the same time.<br> Motivated by this, we developed Remote Resource Sharing(RRS) solution for sharing both hardware and logical resources in an unified way. With RRS, application developers can easily share hardware and logical resources with high-performance. We developed prototype of RRS solution on android platform. Our evaluation results show that local device can use remote camera at an average speed of 53\% of local and can use remote contacts with almost same as local speed.
 
-- project: KAIST) File System scheduler for HDD
-  role: 
-  duration: 
+- project: KAIST) File System scheduler for Hard Disk Drive (HDD)
+  role: Developer
+  duration: 2014.
   # url: "#"
-  description: 
-
-- project: KAIST) big.LITTLE sheduling
-  role: 
-  duration: 
-  # url: "#"
-  description: 
+  description: Big data is one of the important things in these days, and one of the largest area that needs it is the medical profession. Hospitals have a huge amount of historical data, and technology makes possible to utilize these data for future measurement. However, Solid State Drive (SSD) is still expensive to save the big data, so they store these data into cheap and moderate device like HDD. <br> Still, SSD is more speedy than HDD in the aspect of read and write, we can improve HDD's performance by changing scheduling algorithm to take advantage of the characteristics of medical data. First, when medical data is written, they doesn't changed. Second, related medical data is accessed sequentially. It means if data is written with time locality, then we can maximize the the performance of HDD. Therefore, we changed the kernel file system's write system call and see the steep performance growth.
 
 - project: Class) Data Mining With Weka
-  role: 
-  duration:
+  role: Developer and Project Manager
+  duration: 2014.
   # url: "#"
-  description: 
+  description: Weka is open-source data mining tool, and it is used for data regression, clustering, and association rule mining. In class, every one present their own idea of what data will be used, what relationship to be discovered, and something like that. I selected Global Database of Events, Language, and Tone (GDELT) which monitors the world's news media and saves data into CSV format. What I want to answer the questions like \'which country is dangerous for traveling?\' \'what will be the future trend of specific events like war?\' \'what is the former event of specific event?\'.
+
+- project: KAIST) Simulate big.LITTLE sheduling algorithm for real-time OS
+  role: Tester
+  duration:  2013.
+  # url: "#"
+  description: Intel's big.LITTLE architecture is energy-efficient CPU which has two types of cores, big and little. Big core can run program very fast with high frequency, but it consumes a lots of energy so it is used for performance optimized jobs. On the other hand, little core is slow, but has lower energy consumption curve than big core. We make frequency-energy graph by using ODROID which has power sensor for simulation. <br> Despite the hardware comes, there is no great scheduling for big.LITTLE because it is very hard to consider all the cases to distribute work to the CPU. Therefore, we suggest scheduling idea and simulate the scheduler with Java. We make small amount of jobs and try to prove that is best. In this case, best means all jobs are done in their own deadline and energy-efficient.
 
 - project: Class) Making Android App for ECG
-  role: 
+  role: Developer
   duration:
   # url: "#"
   description: 
 
 - project: Class) Systemcall Bottleneck Analysis
-  role: 
+  role: Developer
   duration:
   # url: "#"
   description: 
