@@ -10,7 +10,7 @@
   role: Developer
   duration: 2019.05 &mdash; Present
   # url: "#"
-  description: Security is one of most important things in OS. Linux kernel already have many security features like Linux Security Module (LSM). There are many kinds of LSMs in Linux, but most Linux distributions are using two LSMs: SELinux and AppArmor. In TmaxOS, we decided to use SELinux for our security, because OS can be protected in system call level. We suggest labels, type enforcement rules, and process transition rules for newly inserted daemons and programs. We also considers about more secure ways to manage third-party applications. We also considers about media control, networking, and IPCs.
+  description: Security is one of most important things in OS. Linux kernel already have many security features like Linux Security Module (LSM). There are many kinds of LSMs in Linux, but most Linux distributions are using two LSMs. SELinux and AppArmor. In TmaxOS, we decided to use SELinux for our security, because OS can be protected in system call level. We suggest labels, type enforcement rules, and process transition rules for newly inserted daemons and programs. We also considers about more secure ways to manage third-party applications. We also considers about media control, networking, and IPCs.
 
 - project: TmaxOS) Installer of Operating System
   role: Developer
@@ -22,7 +22,7 @@
   role: Developer
   duration: 2018.02 &mdash; 2018.05
   # url: "#"
-  description: One of TmaxOS's advantage is to run both Windows executable files (EXE) and Linux executabe files (ELF). TmaxOS is Linux-based application so it has no power to run EXE file. However, we developed compatitility layer to run EXE files. EXE files thinks they are running in windows platform, so they use many dlls in windows and other third-party dlls. Therefore, what we did is to develop compatible layer which acts like dlls in windows. 
+  description: One of TmaxOS's advantage is to run both Windows executable files (EXE) and Linux executable files (ELF). TmaxOS is Linux-based application so it has no power to run EXE file. However, we developed compatitility layer to run EXE files. EXE files thinks they are running in windows platform, so they use many dlls in windows and other third-party dlls. Therefore, what we did is to develop compatible layer which acts like dlls in windows. 
 
 - project: KAIST) Developing Remote Resource Sharing Between Two Mobile Device
   role: 
