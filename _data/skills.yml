@@ -1,12 +1,16 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Coding
+  description: (Main) C/C++, Shell Script, (Intermediate) Python, Java, (Interested) HTML, CSS, C#, Object C, Ruby
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Coding Utility
+  description: (Main) Vim, Tmux, Ctags, Cscope, CMake, Visual Studio, (Intermediate) Eclipse
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Debugging Utility
+  description: (Main) gdb, OllyDbg, API Monitor, (Intermediate) IDA, PEViewer
+
+- skill: Source Code Analysis Experience
+  description: Linux Kernel (File System, LSM, System call), Android Framework, Android Kernel, Chromium Web Engine
+
+- skill: Debian Source Code Analysis Experience
+  description: apt/dpkg, GRUB2
+
