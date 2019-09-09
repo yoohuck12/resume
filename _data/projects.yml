@@ -16,7 +16,7 @@
   role: Developer
   duration: 2018.05 &mdash; 2019.05
   # url: "#"
-  description: OS can be installed in various environment such as Desktop, Notebook, Server, Virtual environment (VMWare, Virtual box, Hyper-V), Embedded computers, Dummy computers without hard drive. Also, firmwares are very various in their vendor, type, and ages. For example, different vendors use different management skills for ROM variables, so we should carefully determine how to insert the variables of OS into ROM. There are many naming issues in many different hardware interface. For example, a storage can be linked to a computer by using SCSI, SAS, SATA, and these interfaces are named differently in devfs of linux. All these things should be considered to install and bootstap your computers!
+  description: OS can be installed in various environments such as Desktop, Notebook, Server, Virtual environment (VMWare, Virtual box, Hyper-V), Embedded computers, and Dummy computers without hard drive. The specification of each device is different from others, so it's not easy to install OS correctly in all of these environments. One of things should be considered is firmware. Firmwares have a wide variety of vendors, types, and ages. For example, firmware with initial version of UEFI have bad code for checking ROM variables for finding booting devices. There are also many naming issues in many different hardware interface. For example, a storage can be linked to a computer by using SCSI, SAS, SATA, and these interfaces are named differently in devfs of linux. All these things should be considered to install and bootstap your computers!
 
 - project: TmaxOS) Running Windows Application in linux-based Operating System
   role: Developer
@@ -59,10 +59,3 @@
   duration:
   # url: "#"
   description: 
-
-- project: Class) Systemcall Bottleneck Analysis
-  role: 
-  duration:
-  # url: "#"
-  description: 
-
