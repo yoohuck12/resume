@@ -10,19 +10,19 @@
   role: Developer
   duration: 2019.05 &mdash; Present
   # url: "#"
-  description: Security is one of most important things in OS. Linux kernel already have many security features like Linux Security Module (LSM). There are many kinds of LSMs in Linux, but most Linux distributions are using two LSMs. SELinux and AppArmor.<br> In TmaxOS, we decided to use SELinux for our security, because OS can be protected in system call level. We suggest labels, type enforcement rules, and process transition rules for newly inserted daemons and programs. We also considers about more secure ways to manage third-party applications. We also considers about media control, networking, and IPCs.
+  description: Security is one of most important things in OS. Linux kernel already has many security features including Linux Security Module (LSM). There are many kinds of LSMs in Linux, but most Linux distributions are using two LSMs. SELinux and AppArmor.<br> In TmaxOS, we decided to use SELinux for our security, because OS can be protected in system call level. Our team suggest labels, type enforcement rules, and process transition rules for newly inserted daemons and programs. We also consider more secure ways to manage third-party applications. Security framework should have abilities like media control, secure networking, and secure IPCs.
 
 - project: TmaxOS) Installer of Operating System
   role: Developer
   duration: 2018.05 &mdash; 2019.05
   # url: "#"
-  description: OS can be installed in various environments such as Desktop, Notebook, Server, Virtual environment (VMWare, Virtual box, Hyper-V), Embedded computers, and Dummy computers without hard drive. The specification of each device is different from others, so it's not easy to install OS correctly in all of these environments.<br> One of things should be considered is firmware. Firmwares have a wide variety of vendors, types, and ages. For example, in the case of firmware created in the early stages of UEFI, bad code has been inserted for managing ROM variables. There are also diverse range of naming issues in many different hardware interface. For example, a storage can be linked to a computer by using SCSI, SAS, SATA, and these interfaces are named differently in devfs of linux. All these things should be considered to install and bootstap your computers!
+  description: OS can be installed in various environments such as Desktop, Notebook, Server, Virtual environment (VMWare, Virtual box, Hyper-V), Embedded computers, and Dummy computers without hard drive. The specification of each device is different from others, so it's not easy to install OS correctly in all of these environments.<br> One of things should be considered is firmware. Firmwares have a wide variety of vendors, types, and ages. For example, in the case of firmware created in the early stages of UEFI, bad code has been inserted for managing ROM variables. There are also diverse range of naming issues in much different hardware interface. For example, a storage can be linked to a computer by using SCSI, SAS, SATA, and these interfaces are named differently in devfs of linux. All these things should be considered to install and bootstap your computers!
 
 - project: TmaxOS) Running Windows Application in linux-based Operating System
   role: Developer
   duration: 2018.02 &mdash; 2018.05
   # url: "#"
-  description: One of TmaxOS's advantage is to run both Windows executable files (EXE) and Linux executable files (ELF). TmaxOS is Linux-based application so it has no power to run EXE file. However, we developed compatitility layer to run EXE files. EXE files thinks they are running in windows platform, so they use many dlls in windows and other third-party dlls. Therefore, what we did is to develop compatible layer which acts like dlls in windows. 
+  description: One of TmaxOS's advantage is to run both Windows executable files (EXE) and Linux executable files (ELF). TmaxOS is Linux-based application so it has no power to run EXE file. However, we developed compatitility layer to run EXE files. EXE files thinks they are running in windows platform, so they use many Dynmic Link Libraries (dlls) in windows and other third-party dlls. Therefore, what we did is to develop compatible layer which acts like dlls in windows. 
 
 - project: KAIST) Developing Remote Resource Sharing Between Two Mobile Device
   role: 
