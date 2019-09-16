@@ -36,26 +36,26 @@
   # url: "#"
   description: Big data is one of the important things in these days, and one of the largest area that needs it is the medical profession. Hospitals have a huge amount of historical data, and technology makes possible to utilize these data for future measurement. However, Solid State Drive (SSD) is still expensive to save the big data, so they store these data into cheap and moderate device like HDD. <br> Still, SSD is more speedy than HDD in the aspect of read and write, we can improve HDD's performance by changing scheduling algorithm to take advantage of the characteristics of medical data. First, when medical data is written, they doesn't changed. Second, related medical data is accessed sequentially. It means if data is written with time locality, then we can maximize the the performance of HDD. Therefore, we changed the kernel file system's write system call and see the steep performance growth.
 
-- project: Class) Data Mining With Weka
-  role: Developer and Project Manager
-  duration: 2014.
-  # url: "#"
-  description: Weka is open-source data mining tool, and it is used for data regression, clustering, and association rule mining. In class, every one present their own idea of what data will be used, what relationship to be discovered, and something like that. I selected Global Database of Events, Language, and Tone (GDELT) which monitors the world's news media and saves data into CSV format. What I want to answer the questions like \'which country is dangerous for traveling?\' \'what will be the future trend of specific events like war?\' \'what is the former event of specific event?\'.
-
 - project: KAIST) Simulate big.LITTLE sheduling algorithm for real-time OS
   role: Tester
   duration:  2013.
   # url: "#"
   description: Intel's big.LITTLE architecture is energy-efficient CPU which has two types of cores, big and little. Big core can run program very fast with high frequency, but it consumes a lots of energy so it is used for performance optimized jobs. On the other hand, little core is slow, but has lower energy consumption curve than big core. We make frequency-energy graph by using ODROID which has power sensor for simulation. <br> Despite the hardware comes, there is no great scheduling for big.LITTLE because it is very hard to consider all the cases to distribute work to the CPU. Therefore, we suggest scheduling idea and simulate the scheduler with Java. We make small amount of jobs and try to prove that is best. In this case, best means all jobs are done in their own deadline and energy-efficient.
 
+- project: Class) Data Mining With Weka
+  role: Developer and Project Manager
+  duration: 2014.
+  # url: "#"
+  description: Weka is open-source data mining tool, and it is used for data regression, clustering, and association rule mining. In class, every one present their own idea of what data will be used, what relationship to be discovered, and something like that. I selected Global Database of Events, Language, and Tone (GDELT) which monitors the world's news media and saves data into CSV format. What I want to answer the questions like 'which country is dangerous for traveling?' 'what will be the future trend of specific events like war?' 'what is the former event of specific event?'.
+
 - project: Class) Making Android App for ECG
   role: Developer
-  duration:
+  duration: 2013.
   # url: "#"
-  description: 
+  description: ECG means electrocardiogram, and it is a data set of the eletrical activity of the heart over time. If we measure ECG, we can detect abnormal situations. Who we focus on is elderly people with smart phones. We collect data and find out some important events like heart attack. <br> What we've done is making a smart phone app to collect and send the ECG and the machine learning server which will receive and learn about events. Server do the following three things. First, by comparing data from one person, it finds out what is wrong. Second, by comparing each other's data, we detect possible patients who can face emergency situations. Third, it learns what is the pre-condition of important events and alert to the people who have possibilities.
 
 - project: Class) Systemcall Bottleneck Analysis
-  role: Developer
+  role: Idea suggestions, Developer
   duration:
   # url: "#"
-  description: 
+  description: Linux kernel's application programming interface(API) is called systemcall. There are more than 350 systemcalls in syscall tables. Every application in OS uses this system call directly or indirectly by using libraries like libc. If we find the reason which path of this system call gets slow and improve the performance by soving the bottleneck, then we can make applications faster. <br> We choose the system call write, read, and mmap to analyze.
