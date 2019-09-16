@@ -5,13 +5,11 @@
 #  duration: &mdash; 
 #  # url: "#"
 #  description: 
-
 - project: TmaxOS) Security Framework of Operating System
   role: Developer
   duration: 2019.05 &mdash; Present
   # url: "#"
   description: <ul style="list-style-type:disc;"><li>Compare Linux Security Modules including SELinux, AppArmor.</li> <li>Make and set SELinux labels, type enforcement rules, and process transition rules for newly inserted deamons and programs in TmaxOS.</li><li>Make various SELinux modules for TmaxOS referencing refpolicy.</li><li>For media control, add UDEV rules which executes shell scripts and protect the devices in OS.</li></ul>
-#description: Security is one of most important things in OS. Linux kernel already has many security features including Linux Security Module (LSM). There are many kinds of LSMs in Linux, but most Linux distributions are using two LSMs. SELinux and AppArmor.<br> In TmaxOS, we decided to use SELinux for our security, because OS can be protected in system call level. Our team suggest labels, type enforcement rules, and process transition rules for newly inserted daemons and programs. We also consider more secure ways to manage third-party applications. Security framework should have abilities like media control, secure networking, and secure IPCs.
 
 
 - project: TmaxOS) Installer of Operating System
@@ -19,14 +17,12 @@
   duration: 2018.05 &mdash; 2019.05
   # url: "#"
 description: <ul style="list-style-type:disc;"><li>Install TmaxOS on various envrionments such as desktop, notebook, server, virtual environment (VMWare, Virtual box, Hyper-V), embedded computers and dummy computers with no hard drive.</li><li>Install TmaxOS in various configurations including MBR, GPT, BIOS, and UEFI. </li><li>Analyze the UEFI firmware logic when GRUB2 broke the firmware. Find out string compare logic in firmware is written in an unusual way.</li><li>Dual-booting Linux and Windows in various environment using GRUB2.</li><li>Make a Installation app's logic.</li><li>Make a Window's app for installing TmaxOS in window-only environment. Make a cloud server for uploading TmaxOS ISO.</li><li>Apply Secure booting for TmaxOS. Making signed-grub binary and signed-initrd so that deformed OS can't be executed.</li></ul>
-#description: OS can be installed in various environments such as Desktop, Notebook, Server, Virtual environment (VMWare, Virtual box, Hyper-V), Embedded computers, and Dummy computers without hard drive. The specification of each device is different from others, so it's not easy to install OS correctly in all of these environments.<br> One of things should be considered is firmware. Firmwares have a wide variety of vendors, types, and ages. For example, in the case of firmware created in the early stages of UEFI, bad code has been inserted for managing ROM variables. There are also diverse range of naming issues in much different hardware interface. For example, a storage can be linked to a computer by using SCSI, SAS, SATA, and these interfaces are named differently in devfs of linux. All these things should be considered to install and bootstap your computers!
 
 - project: TmaxOS) Running Windows Application in linux-based Operating System
   role: Developer
   duration: 2018.02 &mdash; 2018.05
   # url: "#"
 description: <ul style="list-style-type:disc;"><li>Make a compatibility layer for certification using botan open-source library.</li><li>By using debugging tools including API Monitor, OllyDbg, PE Viewer, gdb, and etc, we analysis the EXE file's logic and the output of each API call. Mimics the window's API logic with linux-based code.</li><li>To be compatible with the Kindle app, we make a compatible code of many dlls.</li></ul>
-#description: One of TmaxOS's advantage is to run both Windows executable files (EXE) and Linux executable files (ELF). TmaxOS is Linux-based application so it has no power to run EXE file. However, we developed compatitility layer to run EXE files. EXE files thinks they are running in windows platform, so they use many Dynmic Link Libraries (dlls) in windows and other third-party dlls. Therefore, what we did is to develop compatible layer which acts like dlls in windows. 
 
 - project: KAIST) Developing Remote Resource Sharing Between Two Mobile Device
   role: Author (Master Thesis)
