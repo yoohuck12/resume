@@ -10,7 +10,7 @@
   role: Developer
   duration: 2019.05 &mdash; Present
   # url: "#"
-  description: <ul style="list-style-type:disc;"><li>Compare Linux Security Modules including SELinux, AppArmor.</li> <li>Make and set SELinux labels, type enforcement rules, and process transition rules for newly inserted deamons and programs in TmaxOS.</li><li>Make various SELinux modules for TmaxOS referencing refpolicy.</li><li>For media control, add UDEV rules which executes shell scripts and protect the devices in OS.</li></ul>
+  description: <ul style="list-style-type:disc;"><li>Compare Linux Security Modules SELinux and AppArmor. Find out SELinux supports fine-grained control at the system call level, so we select SELinux for our OS.</li> <li>Make and set SELinux labels, type enforcement rules, and process transition rules for newly inserted deamons and programs in TmaxOS.</li><li>Make various SELinux modules for TmaxOS referencing refpolicy.</li><li>For media control, add UDEV rules which executes shell scripts and protect the devices in OS.</li></ul>
 
 
 - project: TmaxOS) Installer of Operating System
