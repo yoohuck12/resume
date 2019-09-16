@@ -231,6 +231,24 @@
       <!-- end Print Social Links -->
       {% endif %}
 
+      {% if site.resume_section_etcs %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Etcs...</h2>
+        </header>
+        {% for skill in site.data.etcs %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ etc.hobby }}</h4>
+          <p class="resume-item-copy">{{ etc.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
+
       <footer class="page-footer">
         <p class="footer-line">Made by <a "href=yoohuck12@gmail.com">yoohuck12@gmail.com</a>.</p>
       </footer>
