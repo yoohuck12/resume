@@ -19,7 +19,7 @@
   # url: "#"
   description: <ul style="list-style-type:disc;"><li>Install TmaxOS on various envrionments such as desktop, notebook, server, virtual environment (VMWare, Virtual box, Hyper-V), embedded computers and dummy computers with no hard drive.</li><li>Install TmaxOS in various configurations including MBR, GPT, BIOS, and UEFI. </li><li>Analyze the UEFI firmware logic when GRUB2 broke the firmware. Find out string compare logic in firmware is written in an unusual way.</li><li>Dual-booting Linux and Windows in various environment using GRUB2.</li><li>Make a Installation app's logic.</li><li>Make a Window's app for installing TmaxOS in window-only environment. Make a cloud server for uploading TmaxOS ISO.</li><li>Apply Secure booting for TmaxOS. Making signed-grub binary and signed-initrd so that deformed OS can't be executed.</li></ul>
 
-- project: TmaxOS) CMake: dependency tracking, cross-compilation, and build integration.
+- project: TmaxOS) Fixing CMake for dependency tracking, cross-compilation, and build integration.
   role: Developer
   duration: 2018.
   # url: "#"
