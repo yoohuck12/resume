@@ -9,19 +9,19 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Yoo Hyuck Martin"
-resume_title:                   "<b>System Software Engineer</b>"
+#resume_avatar:                  "true"
+resume_name:                    "Hyuck YOO" # <br> 45, Jeongjail-ro, Bundang-gu, Seongnam-si, Gyeonggi-do <br> +82 031 8018 1323 <br> yoohuck12@gmail.com"
+resume_title:                   "<b>about me</b>"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "yoohuck12@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "+82 10 9872 9112"
-resume_contact_address:         "Korea. Seoul"
+resume_contact_telephone:       "+82 031 8018 1323"
+resume_contact_address:         "45, Jeongjail-ro, Bundang-gu, Seongnam-si, Gyeonggi-do"
 
 resume_header_contact_info:     ""
-display_header_contact_info:    "false"
+display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Software Engineer with 1+ experience in developing TmaxOS. Advanced skills in firmware, installation of OS, Linux Security Modules. Full-stack knowledge to OS and experience to build basic OS's applications, daemons, and services. Love to investigate larget open-source platforms like Linux kernel, Android framework.<p>"
 
