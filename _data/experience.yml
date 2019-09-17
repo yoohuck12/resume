@@ -8,7 +8,7 @@
 - company: KAIST
   position: vice representative for school of computing department
   duration: Fall, 2013
-  summary: <ul class="resume-item-list"><li></li><li></li><li></li></ul>
+#summary: <ul class="resume-item-list"><li></li><li></li><li></li></ul>
 
 - company: KAIST
   position: Mentor
@@ -23,5 +23,5 @@
 - company: KAIST
   position: Teaching Assistant, CS530 Operating System 
   duration: Spring, 2014. Spring, 2015. Spring, 2016. Spring, 2017.
-  summary: <ul class="resume-item-list"><li></li></ul>
+#summary: <ul class="resume-item-list"><li></li></ul>
 
