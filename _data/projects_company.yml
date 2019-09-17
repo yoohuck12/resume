@@ -1,0 +1,32 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+#- project: 
+#  role: 
+#  duration: &mdash; 
+#  # url: "#"
+#  description: 
+
+- project: TmaxOS) Security Framework of Operating System
+  role: Developer
+  duration: 2019.05 &mdash; Present
+  # url: "#"
+  description: <ul style="list-style-type:disc;"><li>Compare Linux Security Modules SELinux and AppArmor. Find out SELinux supports fine-grained control at the system call level, so we select SELinux for our OS.</li> <li>Make and set SELinux labels, type enforcement rules, and process transition rules for newly inserted deamons and programs in TmaxOS.</li><li>Make various SELinux modules for TmaxOS referencing refpolicy.</li><li>For media control, add UDEV rules which executes shell scripts and protect the devices in OS.</li></ul>
+
+
+- project: TmaxOS) Installer of Operating System
+  role: Developer
+  duration: 2018.05 &mdash; 2019.05
+  # url: "#"
+  description: <ul style="list-style-type:disc;"><li>Install TmaxOS on various envrionments such as desktop, notebook, server, virtual environment (VMWare, Virtual box, Hyper-V), embedded computers and dummy computers with no hard drive.</li><li>Install TmaxOS in various configurations including MBR, GPT, BIOS, and UEFI. </li><li>Analyze the UEFI firmware logic when GRUB2 broke the firmware. Find out string compare logic in firmware is written in an unusual way.</li><li>Dual-booting Linux and Windows in various environment using GRUB2.</li><li>Make a Installation app's logic.</li><li>Make a Window's app for installing TmaxOS in window-only environment. Make a cloud server for uploading TmaxOS ISO.</li><li>Apply Secure booting for TmaxOS. Making signed-grub binary and signed-initrd so that deformed OS can't be executed.</li></ul>
+
+- project: TmaxOS) Fixing CMake for dependency tracking, cross-compilation, and build integration.
+  role: Developer
+  duration: 2018.
+  # url: "#"
+  description: <ul style="list-style-type:disc;"><li>CMake is an open-source build tools and it is easy to use comparing with using Makefile directly. TmaxOS is compiled with CMake.</li><li>CMake supports add_dependencies keyword for dependency tracking, and setting variables of host/target environment for cross-compile.</li><li>First, many developer uses other libraries, headers, and binaries but they sometimes forget to write dependencies in CMakeLists.txt. We make a script that if build error occurs, then find out the cause CMakeLists.txt, so that we can add.</li><li>Second, we build the source code in 32-bit and 64-bit intel architecture. However, TmaxOS releases 32-bit and 64-bit, and arm will be available soon. Therefore, cross-compilation is essential. What we do is make environment for chroot and re-write CMakeLists.txt files that can output specific target binaries.</li></ul>
+
+- project: TmaxOS) Running Windows Application in linux-based Operating System
+  role: Developer
+  duration: 2018.02 &mdash; 2018.05
+  # url: "#"
+  description: <ul style="list-style-type:disc;"><li>Make a compatibility layer for certification using botan open-source library.</li><li>By using debugging tools including API Monitor, OllyDbg, PE Viewer, gdb, and etc, we analysis the EXE file's logic and the output of each API call. Mimics the window's API logic with linux-based code.</li><li>To be compatible with the Kindle app, we make a compatible code of many dlls.</li></ul>

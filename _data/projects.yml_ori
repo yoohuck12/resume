@@ -1,0 +1,61 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+#- project: 
+#  role: 
+#  duration: &mdash; 
+#  # url: "#"
+#  description: 
+
+- project: TmaxOS) Security Framework of Operating System
+  role: Developer
+  duration: 2019.05 &mdash; Present
+  # url: "#"
+  description: Security is one of most important things in OS. Linux kernel already has many security features including Linux Security Module (LSM). There are many kinds of LSMs in Linux, but most Linux distributions are using two LSMs. SELinux and AppArmor.<br> In TmaxOS, we decided to use SELinux for our security, because OS can be protected in system call level. Our team suggest labels, type enforcement rules, and process transition rules for newly inserted daemons and programs. We also consider more secure ways to manage third-party applications. Security framework should have abilities like media control, secure networking, and secure IPCs.
+
+- project: TmaxOS) Installer of Operating System
+  role: Developer
+  duration: 2018.05 &mdash; 2019.05
+  # url: "#"
+  description: OS can be installed in various environments such as Desktop, Notebook, Server, Virtual environment (VMWare, Virtual box, Hyper-V), Embedded computers, and Dummy computers without hard drive. The specification of each device is different from others, so it's not easy to install OS correctly in all of these environments.<br> One of things should be considered is firmware. Firmwares have a wide variety of vendors, types, and ages. For example, in the case of firmware created in the early stages of UEFI, bad code has been inserted for managing ROM variables. There are also diverse range of naming issues in much different hardware interface. For example, a storage can be linked to a computer by using SCSI, SAS, SATA, and these interfaces are named differently in devfs of linux. All these things should be considered to install and bootstap your computers!
+
+- project: TmaxOS) Running Windows Application in linux-based Operating System
+  role: Developer
+  duration: 2018.02 &mdash; 2018.05
+  # url: "#"
+  description: One of TmaxOS's advantage is to run both Windows executable files (EXE) and Linux executable files (ELF). TmaxOS is Linux-based application so it has no power to run EXE file. However, we developed compatitility layer to run EXE files. EXE files thinks they are running in windows platform, so they use many Dynmic Link Libraries (dlls) in windows and other third-party dlls. Therefore, what we did is to develop compatible layer which acts like dlls in windows. 
+
+- project: KAIST) Developing Remote Resource Sharing Between Two Mobile Device
+  role: Author (Master Thesis)
+  duration: 2015.09
+  # url: "#"
+  description: Nowadays there are so many devices around us including smart phone, smart TV, smart watch, and so on. These devices have hardware resources like camera, audio, GPS and logical resources like contacts, calendar, and setting. While most studies focused on sharing hardware resources between devices, little work has been done on sharing both hardware resources and logical resources at the same time.<br> Motivated by this, we developed Remote Resource Sharing(RRS) solution for sharing both hardware and logical resources in an unified way. With RRS, application developers can easily share hardware and logical resources with high-performance. We developed prototype of RRS solution on android platform. Our evaluation results show that local device can use remote camera at an average speed of 53\% of local and can use remote contacts with almost same as local speed.
+
+- project: KAIST) File System scheduler for Hard Disk Drive (HDD)
+  role: Developer
+  duration: 2014.
+  # url: "#"
+  description: Big data is one of the important things in these days, and one of the largest area that needs it is the medical profession. Hospitals have a huge amount of historical data, and technology makes possible to utilize these data for future measurement. However, Solid State Drive (SSD) is still expensive to save the big data, so they store these data into cheap and moderate device like HDD. <br> Still, SSD is more speedy than HDD in the aspect of read and write, we can improve HDD's performance by changing scheduling algorithm to take advantage of the characteristics of medical data. First, when medical data is written, they doesn't changed. Second, related medical data is accessed sequentially. It means if data is written with time locality, then we can maximize the the performance of HDD. Therefore, we changed the kernel file system's write system call and see the steep performance growth.
+
+- project: KAIST) Simulate big.LITTLE sheduling algorithm for real-time OS
+  role: Tester
+  duration:  2013.
+  # url: "#"
+  description: Intel's big.LITTLE architecture is energy-efficient CPU which has two types of cores, big and little. Big core can run program very fast with high frequency, but it consumes a lots of energy so it is used for performance optimized jobs. On the other hand, little core is slow, but has lower energy consumption curve than big core. We make frequency-energy graph by using ODROID which has power sensor for simulation. <br> Despite the hardware comes, there is no great scheduling for big.LITTLE because it is very hard to consider all the cases to distribute work to the CPU. Therefore, we suggest scheduling idea and simulate the scheduler with Java. We make small amount of jobs and try to prove that is best. In this case, best means all jobs are done in their own deadline and energy-efficient.
+
+- project: Class) Data Mining With Weka
+  role: Developer and Project Manager
+  duration: 2014.
+  # url: "#"
+  description: Weka is open-source data mining tool, and it is used for data regression, clustering, and association rule mining. In class, every one present their own idea of what data will be used, what relationship to be discovered, and something like that. I selected Global Database of Events, Language, and Tone (GDELT) which monitors the world's news media and saves data into CSV format. What I want to answer the questions like 'which country is dangerous for traveling?' 'what will be the future trend of specific events like war?' 'what is the former event of specific event?'.
+
+- project: Class) Making Android App for ECG
+  role: Developer
+  duration: 2013.
+  # url: "#"
+  description: ECG means electrocardiogram, and it is a data set of the eletrical activity of the heart over time. If we measure ECG, we can detect abnormal situations. Who we focus on is elderly people with smart phones. We collect data and find out some important events like heart attack. <br> What we've done is making a smart phone app to collect and send the ECG and the machine learning server which will receive and learn about events. Server do the following three things. First, by comparing data from one person, it finds out what is wrong. Second, by comparing each other's data, we detect possible patients who can face emergency situations. Third, it learns what is the pre-condition of important events and alert to the people who have possibilities.
+
+- project: Class) Systemcall Bottleneck Analysis
+  role: Idea suggestions, Developer
+  duration:
+  # url: "#"
+  description: Linux kernel's application programming interface(API) is called systemcall. There are more than 350 systemcalls in syscall tables. Every application in OS uses this system call directly or indirectly by using libraries like libc. If we find the reason which path of this system call gets slow and improve the performance by soving the bottleneck, then we can make applications faster. <br> We choose the system call write, read, and mmap to analyze.

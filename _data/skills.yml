@@ -1,6 +1,6 @@
 # Skills
-- skill: Coding
-  description: (Main) C/C++, Shell Script, (Intermediate) Python, Java, (Interested) HTML, CSS, C#, Object C, Ruby
+- skill: Language
+  description: (Professional) C/C++, Shell Script, (Intermediate) Python, Java, (others) HTML, CSS, C#, Object C, Ruby
 
 - skill: Coding Utility
   description: (Main) Vim, Tmux, Ctags, Cscope, CMake, Visual Studio, (Intermediate) Eclipse
