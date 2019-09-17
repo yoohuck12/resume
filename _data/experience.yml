@@ -8,7 +8,7 @@
 - company: KAIST
   position: vice representative for school of computing department
   duration: Fall, 2013
-#summary: <ul class="resume-item-list"><li></li><li></li><li></li></ul>
+  summary: <ul class="resume-item-list"><li>Prepare for orientation for new students. we invited professors to come and tell a good story to them.</li><li>At the Department Admissions Meeting, had a Q&A session for students who wanted to enter the department.</li><li>For new students, we have scheduled a time to introduce the lab by lab.</li></ul>
 
 - company: KAIST
   position: Mentor
@@ -22,6 +22,6 @@
 
 - company: KAIST
   position: Teaching Assistant, CS530 Operating System 
-  duration: Spring, 2014. Spring, 2015. Spring, 2016. Spring, 2017.
-#summary: <ul class="resume-item-list"><li></li></ul>
+  duration: Fall, 2016.
+  summary: <ul class="resume-item-list"><li>Make a interesting paper list for critical review. We search man conferences including OSDI, NSDI, MobiSys, MobiCom, and etc.</li><li>Check student's PPT before they present.</li></ul>
 
